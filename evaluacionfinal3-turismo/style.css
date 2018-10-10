@@ -31,10 +31,11 @@ nav .nav-wrapper{
   max-width: 100%;
 }
 
-.btn-small{
+.btn{
   height: 29.4px;
   line-height: 29.4px;
   font-size: 9px;
+  background-color:black;
 }
 .s{
   border-style: ridge;
