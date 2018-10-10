@@ -58,3 +58,6 @@ nav .nav-wrapper{
   margin-left: auto;
   margin-right: auto;
 }
+.grid-container{
+  grid-row-gap: 500px;
+}
