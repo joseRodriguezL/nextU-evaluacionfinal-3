@@ -1,0 +1,59 @@
+.btn .btn-large, .btn-small{
+background-color: rgba(2, 112, 177,1);
+color:white;
+}
+
+
+.img1{
+width: 10%;
+ margin-left:2px;
+}
+body{
+  background-image: url(http://www.mcm-backpacks.com/img/2018/08/beach-travel-destinations-top-most-popular-vacation-spots-tropical-island-queensland-crystal-clean-attractions-swimming-nice-holiday-relaxing-cool-vacations-sites-beautiful-around.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav .nav-wrapper{
+  background-color:rgb(2, 110, 175,0.5);
+}
+.slogan{
+  text-align: center;
+  font-size:35px;
+}
+.icons{
+  width: 42px;
+}
+.col2{
+  background-color:rgba(2, 110, 175,1);
+}
+.bm{
+  border-style: ridge;
+  max-width: 100%;
+}
+
+.btn-small{
+  height: 29.4px;
+  line-height: 29.4px;
+  font-size: 9px;
+}
+.s{
+  border-style: ridge;
+  max-width: 100%;
+}
+.rd{
+  background-color:#a8a7a8bd;
+  border-radius: 15px;
+}
+.rd1{
+  background-color:#a8a7a8bd;
+  border-radius: 15px;
+}
+.author{
+  width: 50%;
+}
+.b{
+  border-top:0.5px solid;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,41 @@
+body{
+  background-image: url(https://zakarchitecture.com/wp-content/uploads/2017/02/BEACH-CLUB-003.jpg);
+}
+h5{
+  color: #7f6762;
+}
+.rodriguez{
+height:100%;
+}
+.col1{
+background-color: #fbf9ef;
+}
+.favoritos{
+  height:100px;
+  width: 30%;
+  border-style: ridge;
+}
+.collection a.collection-item{
+  color: black;
+  background-color: #fbf9ef;
+}
+.collection{
+  border: none;
+}
+.lobster{
+  width: 100%;
+  border-style: ridge;
+}
+.chat{
+  background-color: #fbf9ef;
+}
+.chowder{
+  width: 100%;
+  border-style: ridge;
+}
+.colu{
+  background-color:rgba(220, 210, 206, 0.5);
+}
+.btn, .btn-large, .btn-small{
+  background-color: #795548;
+}

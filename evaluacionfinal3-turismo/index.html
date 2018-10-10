@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  $(document).ready(function()
+  {
+    $('.sidenav').sidenav();
+  });
+
+</script>
+
+<body>
+  <div class="row">
+    <div class="col s12 m12">
+      <a><img class="img1 responsive-img circle" src="img/turismo.png"></img></a>
+      <a class="right  waves-effect waves-light btn-small"><i class="material-icons"></i>Adventuras</a>
+      <a class="right waves-effect waves-light btn-small"><i class="material-icons"></i>Comidas</a>
+      <a class="right waves-effect waves-light btn-small"><i class="material-icons"></i>Playa</a>
+      <a class="right waves-effect waves-light btn-small"><i class="material-icons right">home</i>Inicio</a>
+    </div>
+    <div class="col s12 m12 white-text slogan">
+      <span>Conoce el Mundo!</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m1">
+      <a href="instagram.com"><img class="icons" src="img/instagram.png"></img></a>
+      <a href="facebook.com"><img class="icons" src="img/facebook.png"></img></a>
+      <a href="twitter.com"><img class="icons" src="img/twitter.png"></img></a>
+      <a href="pinterest.com"><img class="icons" src="img/pinterest.png"></img></a>
+      <a href="youtube.com"><img class="icons" src="img/youtube.png"></img></a>
+    </div>
+    <div class="col s12 m4">
+      <img class="bm" src="img/river.jpg"></img>
+      <img class="bm" src="img/ocean.jpg"></img>
+    </div>
+    <div class="col s12 m4">
+      <img class="s" src="img/paris.jpg"></img>
+    </div>
+    <div class="col s12 m3">
+      <img class="s" src="img/beach.jpg"></img>
+      <img class="s" src="img/atv.jpg"></img>
+      <img class="s" src="img/horse.jpg"></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m8 white">
+      <div class="col m6">
+        <img class="responsive-img" src="img/dr.jpg"></img>
+      </div>
+      <h5>Dominican Republic</h5>
+      <span class="rd1">October 8,2018</span>
+      <span class="rd">Santo Domingo,RD</span>
+      <p>
+        La República Dominicana es una nación caribeña que comparte la isla de La Española con Haití al oeste. Es conocido por sus playas, resorts y golf. Su terreno comprende selva tropical, sabana y tierras altas, incluyendo Pico Duarte, la
+        montaña más alta del Caribe. La ciudad capital, Santo Domingo, tiene puntos de referencia españoles como la catedral gótica Primada de América, que data de 5 siglos en su Zona Colonial.</p>
+      <p>La República Dominicana es el destino más visitado en el Caribe. Los campos de golf durante todo el año son las principales atracciones. Una nación geográficamente diversa, la República Dominicana es el hogar del pico de montaña más alto
+        del Caribe, Pico Duarte, y del lago y punto más grande del Caribe la elevación más baja, el Lago Enriquillo. La isla tiene una temperatura promedio de 26 ° C (78.8 ° F) y una gran diversidad climática y biológica. El país es también el sitio
+        de la primera catedral, castillo, monasterio y fortaleza construida en Las Américas, ubicadas en la Zona Colonial de Santo Domingo, Patrimonio de la Humanidad. La música y el deporte son de gran importancia en la cultura dominicana, con
+        Merengue y Bachata como el baile y la música nacional, y el
+        béisbol como el favorito deporte.</p>
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">comment</i>
+            <textarea id="comment" class="materialize-textarea"></textarea>
+            <label for="comment">Comentario</label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col s12 m4 light-blue lighten-4">
+      <div class="center-align">
+        <img class="responsive-img circle  author" src="img/author.png"></img>
+      </div>
+      <h5 class="center-align">Perfíl de Autor</h5>
+      <div class="center-align b"></div>
+      <p class="center-align">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney
+        College in Virginia,looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m8 white">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <h5>Deja tu Comentario</h5>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="icon_telephone" type="email" class="validate">
+              <label for="icon_prefix">Email</label>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s10">
+                <i class="material-icons prefix">comment</i>
+                <textarea id="comment" class="materialize-textarea"></textarea>
+                <label for="comment">Comentario</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <button class="btn-small right" type="submit" name="action">ENVIAR</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="materialize/js/materialize.min.js">
+  </script>
+</body>
+
+</html>
